@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./app.css"
+import "./App.css"
 import { initializeApp } from "firebase/app";
 import { getDatabase, onValue, ref, set } from "firebase/database";
 // import { CronJob } from "cron";
