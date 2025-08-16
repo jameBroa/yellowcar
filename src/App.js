@@ -31,7 +31,6 @@ function App() {
     databaseURL: process.env.REACT_APP_REALTIME_DB_URL
   };
 
-  console.log(process.env.REACT_APP_REALTIME_DB_URL);
 
   const app = initializeApp(firebaseConfig);
   const realtime_db = getDatabase(app);
@@ -132,7 +131,6 @@ function App() {
     }
 
     retrieveCounts();
-    console.log("useEffect called");
   });
 
   const resetBusCounts = () => {
